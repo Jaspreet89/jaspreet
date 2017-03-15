@@ -1,0 +1,359 @@
+doctype html
+html(lang='en')
+  head
+    title Jaspreet Singh
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+    meta(name='keywords', content='Easy Resume Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,     SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design')
+    script(type='application/x-javascript').
+      addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+    // Custom Theme files
+    link(href='css/bootstrap.css', type='text/css', rel='stylesheet', media='all')
+    link(href='css/style.css', type='text/css', rel='stylesheet', media='all')
+    link(rel='stylesheet', href='css/lightbox.css')
+    // //Custom Theme files
+    // js
+    script(src='js/jquery-2.2.3.min.js')
+    // //js
+    // web-fonts
+    link(href='//fonts.googleapis.com/css?family=Text+Me+One', rel='stylesheet', type='text/css')
+    link(href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic', rel='stylesheet', type='text/css')
+    // //web-fonts
+  body
+    // top-nav
+    .top-nav
+      .container
+        .navbar-header.logo
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1') Menu
+        // Collect the nav links, forms, and other content for toggling
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          .menu
+            ul.nav.navbar
+              li
+                a.w3ls-hover(href='/')
+                  span(data-letters='Home') Home
+              li
+                a.w3ls-hover(href='#', data-toggle='modal', data-target='#about')
+                  span(data-letters='About') About 
+              li
+                a.w3ls-hover(href='#', data-toggle='modal', data-target='#skill')
+                  span(data-letters='Skills') Skills
+              li
+                a.w3ls-hover(href='#', data-toggle='modal', data-target='#experience')
+                  span(data-letters='Experience') Experience 
+              li
+                a.w3ls-hover(href='#', data-toggle='modal', data-target='#education')
+                  span(data-letters='Education') Education 
+              li
+                a.w3ls-hover(href='#', data-toggle='modal', data-target='#work')
+                  span(data-letters='Work') Work
+              li
+                a.w3ls-hover(href='#', data-toggle='modal', data-target='#contact')
+                  span(data-letters='Contact') Contact 
+              li
+                a.w3ls-icon(href='#')
+                  span.glyphicon.glyphicon-save
+            .clearfix  
+    // //top-nav
+    // banner
+    .video(data-vide-bg='video/cv', autoplay='', loop='')
+      .container
+        .banner-text.agileinfo-text
+          h1 Jaspreet Singh
+          h6 Full Stack Developer
+    script(src='js/jquery.vide.min.js')
+    // //banner
+    // modal-about
+    #about.modal.fade.modal-about(tabindex='-1', role='dialog')
+      .modal-dialog(role='document')
+        .modal-content
+          .modal-header
+            button.close(type='button', data-dismiss='modal', aria-label='Close')
+              span(aria-hidden='true') X
+            h4.modal-title ABOUT ME
+          .modal-body.modal-spa
+            .about
+              .col-md-4.about-left
+                img.img-responsive(src='images/jaspreet.jpg', alt='')
+              .col-md-8.about-right.wthree
+                h3
+                  | Hi, i'm 
+                  span Jaspreet Singh 
+                h4 Full Stack Developer 
+                ul.address
+                  li
+                    ul.agileits-address-text
+                      li
+                        b D.O.B
+                      li 18-06-1989
+                  li
+                    ul.agileits-address-text
+                      li
+                        b PHONE 
+                      li 004915213233437
+                  li
+                    ul.agileits-address-text
+                      li
+                        b ADDRESS 
+                      li Menzler Strasse 9, Cologne, Germany.
+                  li
+                    ul.agileits-address-text
+                      li
+                        b E-MAIL 
+                      li
+                        a(href='mailto:jaashy.singh@gmail.com')  jaashy.singh@gmail.com
+                  li
+                    ul.agileits-address-text
+                      li
+                        b WEBSITE 
+                      li
+                        a(href='#') under development
+              .clearfix  
+              .about-text.agileits-w3layouts
+                div(style='color: rgb(99, 99, 99);')
+                  | Welcome, my name is Jaspreet singh. I am a full stack software developer from Germany who loves to write software to build great products and help businesses succeed with their goals. I appreciate good design and I am seeing it's importance more then ever in todays apps, web sites and products. 
+                  p(style='color: rgb(99, 99, 99) !important;margin-top: 5px;')
+                    | I am an aspiring entrepreneur who subscribes to the lean startup ideology.
+                    | I have been working professionally in software development since 2012 in the web and mobile spaces with experience across the energy,finance, e-commerce and transport domains. I occasionally dabble in game development and DevOps .
+    // //modal-about
+    // modal-skills
+    #skill.modal.fade.modal-skills(tabindex='-1', role='dialog')
+      .modal-dialog(role='document')
+        .modal-content
+          .modal-header
+            button.close(type='button', data-dismiss='modal', aria-label='Close')
+              span(aria-hidden='true') X
+            h4.modal-title My Skills
+          .modal-body.modal-spa
+            .skills
+              .col-md-6.bar-grids
+                h4
+                  span.glyphicon.glyphicon-cog
+                  |  Technical Skills
+                h6
+                  | Web Development  
+                  span  100% 
+                .progress
+                  .progress-bar.progress-bar-striped.active(style='width: 100%')
+                h6
+                  | Database 
+                  span  70% 
+                .progress.w3-agile
+                  .progress-bar.progress-bar-striped.active(style='width: 70%')
+                h6
+                  | Javascript(Angular/React/Sencha/Knockout)
+                  span 90% 
+                .progress.w3-agile
+                  .progress-bar.progress-bar-striped.active(style='width: 90%')
+                h6
+                  | Magento 
+                  span  75% 
+                .progress.w3-agile
+                  .progress-bar.progress-bar-striped.active(style='width: 75%')
+              .col-md-6.bar-grids.w3-agile
+                h4
+                  span.glyphicon.glyphicon-briefcase
+                  |  Professional Skills
+                h6
+                  | Management
+                  span  85% 
+                .progress
+                  .progress-bar.progress-bar-striped.active(style='width: 85%')
+                h6
+                  | Communication
+                  span 86% 
+                .progress.prgs-w3agile-last
+                  .progress-bar.progress-bar-striped.active(style='width: 86%')
+                h6
+                  | Leadership
+                  span 90% 
+                .progress
+                  .progress-bar.progress-bar-striped.active(style='width: 90%')
+                h6
+                  | Confidence
+                  span 86% 
+                .progress.prgs-w3agile-last
+                  .progress-bar.progress-bar-striped.active(style='width: 86%')
+              .clearfix  
+    // //modal-skills
+    // modal-experience
+    #experience.modal.fade.modal-experience(tabindex='-1', role='dialog')
+      .modal-dialog(role='document')
+        .modal-content
+          .modal-header
+            button.close(type='button', data-dismiss='modal', aria-label='Close')
+              span(aria-hidden='true') X
+            h4.modal-title My Experience
+          .modal-body.modal-spa
+            .experience.w3-agileits-info
+              .experience-grids
+                .experience-left
+                  h3 2016 - Now 
+                  h5 Intersales Ag 
+                .experience-right
+                  h4 Magento Developer
+                .clearfix  
+              .experience-grids.experience-grids-btm
+                .experience-left
+                  h3 2015 - 2016
+                  h5 Fraunhofer IOSB 
+                .experience-right
+                  h4 Web Developer
+                .clearfix  
+              .experience-grids.w3-agileits
+                .experience-left
+                  h3 2012 - 2015
+                  h5 Nagarro 
+                .experience-right
+                  h4 Web Developer
+                .clearfix  
+    // //modal-experience
+    // modal-education
+    #education.modal.fade.modal-experience(tabindex='-1', role='dialog')
+      .modal-dialog(role='document')
+        .modal-content
+          .modal-header.w3layouts
+            button.close(type='button', data-dismiss='modal', aria-label='Close')
+              span(aria-hidden='true') X
+            h4.modal-title My Qualification
+          .modal-body.modal-spa
+            .experience
+              .experience-grids
+                .experience-left
+                  h3
+                    | 2015
+                    span (2 Years Course)
+                  h5  Technical University(ilmenau)
+                .experience-right
+                  h4 Research in computer science(dropout)
+                .clearfix  
+              .experience-grids.experience-grids-btm
+                .experience-left
+                  h3
+                    | 2008
+                    span (4 Years Course)
+                  h5 Panjab University(Chandigarh)
+                .experience-right
+                  h4 Information Technology
+                .clearfix  
+    // //modal-education
+    // modal-gallery
+    #work.modal.fade.modal-gallery(tabindex='-1', role='dialog')
+      .modal-dialog(role='document')
+        .modal-content
+          .modal-header
+            button.close(type='button', data-dismiss='modal', aria-label='Close')
+              span(aria-hidden='true') X
+            h4.modal-title My Work
+          .modal-body.modal-spa
+            .gallery
+              .gallery-row
+                .row
+                  .col-md-4.gallery-grids
+                    .gallery-w3ls-hover
+                      a(href='images/1.png', data-lightbox='example-set', data-title='')
+                        img.img-responsive.zoom-img(src='images/1.png', alt='')
+                        .view-caption
+                          h5 View+
+                  .col-md-4.gallery-grids
+                    .gallery-w3ls-hover
+                      a(href='images/2.png', data-lightbox='example-set', data-title='')
+                        img.img-responsive.zoom-img(src='images/2.png', alt='')
+                        .view-caption
+                          h5 View+
+                  .col-md-4.gallery-grids
+                    .gallery-w3ls-hover
+                      a(href='images/3.png', data-lightbox='example-set', data-title='')
+                        img.img-responsive.zoom-img(src='images/3.png', alt='')
+                        .view-caption
+                          h5 View+
+                .row
+                  .col-md-4.gallery-grids
+                    .gallery-w3ls-hover
+                      a(href='images/4.png', data-lightbox='example-set', data-title='')
+                        img.img-responsive.zoom-img(src='images/4.png', alt='')
+                        .view-caption
+                          h5 View+
+                  .col-md-4.gallery-grids
+                    .gallery-w3ls-hover
+                      a(href='images/5.png', data-lightbox='example-set', data-title='')
+                        img.img-responsive.zoom-img(src='images/5.png', alt='')
+                        .view-caption
+                          h5 View+
+                  .col-md-4.gallery-grids
+                    .gallery-w3ls-hover
+                      a(href='images/6.png', data-lightbox='example-set', data-title='')
+                        img.img-responsive.zoom-img(src='images/6.png', alt='')
+                        .view-caption
+                          h5 View+
+                .row
+                  .col-md-4.gallery-grids
+                    .gallery-w3ls-hover
+                      a(href='images/7.png', data-lightbox='example-set', data-title='')
+                        img.img-responsive.zoom-img(src='images/7.png', alt='')
+                        .view-caption
+                          h5 View+
+                  .col-md-4.gallery-grids
+                    .gallery-w3ls-hover
+                      a(href='images/8.png', data-lightbox='example-set', data-title='')
+                        img.img-responsive.zoom-img(src='images/8.png', alt='')
+                        .view-caption
+                          h5 View+
+                  .col-md-4.gallery-grids
+                    .gallery-w3ls-hover
+                      a(href='images/9.png', data-lightbox='example-set', data-title='')
+                        img.img-responsive.zoom-img(src='images/9.png', alt='')
+                        .view-caption
+                          h5 View+
+                .row
+                  .col-md-4.gallery-grids
+                    .gallery-w3ls-hover
+                      a(href='images/10.png', data-lightbox='example-set', data-title='')
+                        img.img-responsive.zoom-img(src='images/10.png', alt='')
+                        .view-caption
+                          h5 View+
+                  .col-md-4.gallery-grids
+                    .gallery-w3ls-hover
+                      a(href='images/11.png', data-lightbox='example-set', data-title='')
+                        img.img-responsive.zoom-img(src='images/11.png', alt='')
+                        .view-caption
+                          h5 View+
+                  .col-md-4.gallery-grids
+                    .gallery-w3ls-hover
+                      a(href='images/12.png', data-lightbox='example-set', data-title='')
+                        img.img-responsive.zoom-img(src='images/12.png', alt='')
+                        .view-caption
+                          h5 View+
+                .clearfix  
+              // light box js
+              script(src='js/lightbox-plus-jquery.min.js')
+              // //light box js
+    // //modal-gallery
+    // modal-contact
+    #contact.modal.fade.modal-contact(tabindex='-1', role='dialog')
+      .modal-dialog(role='document')
+        .modal-content
+          .modal-header
+            button.close(type='button', data-dismiss='modal', aria-label='Close')
+              span(aria-hidden='true') X
+            h4.modal-title Get In Touch
+          .modal-body.modal-spa
+            .contact
+              .contact-w3lsrow
+                .col-md-6.contact-left.w3-agileits
+                  iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2513.2104065872877!2d6.942303315749801!3d50.956813979548414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bf25743b1b235d%3A0x7291370b41017abb!2zTWVuemVsc3RyYcOfZSwgNTA3MzMgS8O2bG4!5e0!3m2!1sen!2sde!4v1489599752142', width='600', height='450', frameborder='0', style='border:0', allowfullscreen='')
+                .col-md-6.contact-right
+                  .styled-input.agile-styled-input-top
+                    label Phone Nummer:004915213233437
+                .clearfix  
+    // //modal-contact
+    // footer
+    .footer
+      .container
+        p jaspreet singh
+    // //footer
+    //
+      Bootstrap core JavaScript
+      ==================================================
+    // Placed at the end of the document so the pages load faster
+    script(src='js/bootstrap.js')
